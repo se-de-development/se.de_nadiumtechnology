@@ -1,0 +1,43 @@
+<?xml version="1.0"?> <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<VoxelMapStorages>
+
+
+
+
+
+
+<VoxelMapStorage>
+<Id>
+<TypeId>VoxelMapStorageDefinition</TypeId>
+<SubtypeId>A Nadrit Asteroid V1</SubtypeId>
+</Id>
+<StorageFile>VoxelMaps\Nadrit_asteroid_v1.vx2</StorageFile>
+</VoxelMapStorage>
+
+<VoxelMapStorage>
+<Id>
+<TypeId>VoxelMapStorageDefinition</TypeId>
+<SubtypeId>A Nadrit Asteroid V2</SubtypeId>
+</Id>
+<StorageFile>VoxelMaps\Nadrit_asteroid_v2.vx2</StorageFile>
+</VoxelMapStorage>
+
+<VoxelMapStorage>
+<Id>
+<TypeId>VoxelMapStorageDefinition</TypeId>
+<SubtypeId>A Nadrit Asteroid Field</SubtypeId>
+</Id>
+<StorageFile>VoxelMaps\Nadrit_asteroid_field.vx2</StorageFile>
+</VoxelMapStorage>
+
+
+
+
+
+
+
+
+
+
+</VoxelMapStorages>
+</Definitions>

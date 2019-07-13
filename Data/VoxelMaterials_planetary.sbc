@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VoxelMaterials>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Talonit</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <MaterialTypeName>Talonit</MaterialTypeName>
+      <MinedOre>Talonit</MinedOre>
+      <MinedOreRatio>1</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>true</IsRare>
+      <IsIndestructible>false</IsIndestructible>
+      <DamageRatio>0.2</DamageRatio>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <VoxelHandPreview>Textures\Voxels\talonit_thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\talonit_cm.dds</ColorMetalXZnY>	<!-- Defines Basecolor -->
+      <NormalGlossXZnY>Textures\Voxels\talonit_ng.dds</NormalGlossXZnY>	<!-- Defines Bumpmap -->
+      <ExtXZnY>Textures\Voxels\talonit_add.dds</ExtXZnY>				<!-- Defines Specular -->
+      <Friction>0.9</Friction>
+      <Restitution>0.1</Restitution>
+	  <SpecularPower>15</SpecularPower>
+      <ColorKey Hex="#42f44e"/>
+	  <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+    </VoxelMaterial>
+  </VoxelMaterials>
+</Definitions>

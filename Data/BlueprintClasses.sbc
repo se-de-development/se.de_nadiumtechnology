@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+	<Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>NadiumGenerator</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+    </Class>
+	<Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Nadium_Centrifuge</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+    </Class>
+	<Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Talon</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+  <BlueprintClassEntries>
+	<Entry Class="NadiumGenerator" BlueprintSubtypeId="Radioactive_Nadium_Ingot_Generation" />
+    <Entry Class="NadiumGenerator" BlueprintSubtypeId="Nadium_Ingot_Generation" />
+    <Entry Class="NadiumGenerator" BlueprintSubtypeId="Nadium_Crystal_Generation" />
+	<Entry Class="Nadium_Centrifuge" BlueprintSubtypeId="Radioactive_Nadium" />
+    <Entry Class="Nadium_Centrifuge" BlueprintSubtypeId="Nadium_Crystal" />
+    <Entry Class="Nadium_Centrifuge" BlueprintSubtypeId="Nadium_steelplate" />
+    <!--<Entry Class="Nadium_Centrifuge" BlueprintSubtypeId="NadritOreToIngot" />-->
+    <Entry Class="Talon" BlueprintSubtypeId="TalonitToTalon" />
+  </BlueprintClassEntries>
+</Definitions>

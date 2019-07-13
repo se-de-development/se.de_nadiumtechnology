@@ -1,0 +1,30 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Nadium Technology</DisplayName>
+      <Name>Nadium_Tech</Name>
+      <ItemIds>
+	    <string>LargeNadiumGenerator</string>
+		<string>Nadium_Zentrifuge</string>
+        <string>nadium_thruster_largeBlocklarge</string>
+	    <string>nadium_thruster_smallBlockLarge</string>
+        <string>nadium_thruster_largeBlocksmall</string>
+	    <string>nadium_thruster_smallBlocksmall</string>
+	    <string>nadium_LargeBlockLargeGenerator</string>
+		<string>nadium_smallBlockLargeGenerator</string>
+	    <string>nadium_SmallJumpDrive</string>
+	    <string>talon_Generator</string>
+		<string>talon_tankLarge</string>
+		<string>talon_thruster_large</string>
+		<string>talon_thruster_small</string>
+		<string>nadium_ablativeArmor</string>
+		<string>JumpInhibitor</string>
+      </ItemIds>
+    </Category>	
+  </CategoryClasses>
+</Definitions>

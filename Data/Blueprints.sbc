@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <!--<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NadritOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Nadrit to Nadiumingot</DisplayName>
+      <Icon>Textures\GUI\Icons\component\icon_nadium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1200000" TypeId="Ore" SubtypeId="Nadrit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Nadium" />
+      <BaseProductionTimeInSeconds>1800</BaseProductionTimeInSeconds>
+    </Blueprint>-->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Radioactive_Nadium_Ingot_Generation</SubtypeId>
+      </Id>
+      <DisplayName>Generate Radioactive Nadium</DisplayName>
+      <Icon>Textures\GUI\Icons\component\icon_nadium_ingot_radioactive.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0" TypeId="Component" SubtypeId="Nadium_Radioactive" />
+      </Prerequisites>
+      <Result Amount="5" TypeId="Component" SubtypeId="Nadium_Radioactive" />
+      <BaseProductionTimeInSeconds>3600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Nadium_Ingot_Generation</SubtypeId>
+      </Id>
+      <DisplayName>Generate Nadium</DisplayName>
+      <Icon>Textures\GUI\Icons\component\icon_nadium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0" TypeId="Component" SubtypeId="Nadium" />
+      </Prerequisites>
+      <Result Amount="5" TypeId="Component" SubtypeId="Nadium" />
+      <BaseProductionTimeInSeconds>3600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Nadium_Crystal_Generation</SubtypeId>
+      </Id>
+      <DisplayName>Generate Nadium Crystal</DisplayName>
+      <Icon>Textures\GUI\Icons\component\icon_nadium_crystal.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0" TypeId="Component" SubtypeId="Nadium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Nadium_Crystal" />
+      <BaseProductionTimeInSeconds>900</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Radioactive_Nadium</SubtypeId>
+      </Id>
+      <DisplayName>Refine Radioactive Nadium</DisplayName>
+      <Icon>Textures\GUI\Icons\component\icon_nadium_ingot_radioactive.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Nadium_Radioactive" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Nadium" />
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Nadium_Crystal</SubtypeId>
+      </Id>
+      <DisplayName>Process Nadium to Crystal</DisplayName>
+      <Icon>Textures\GUI\Icons\component\icon_nadium_crystal.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Nadium" />
+      </Prerequisites>
+      <Result Amount="30" TypeId="Component" SubtypeId="Nadium_Crystal" />
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Nadium_steelplate</SubtypeId>
+      </Id>
+      <DisplayName>Reinforced Nadium steelplate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\icon_nadium_steelplate.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Nadium_Crystal" />
+		<Item Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Nadium_steelplate" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>	
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TalonitToTalon</SubtypeId><!-- TODO: correct naming -->
+      </Id>
+      <DisplayName>Talon</DisplayName><!-- TODO: correct naming -->
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.25" TypeId="Ore" SubtypeId="Talonit" /><!-- DEV: ore ID -->
+      </Prerequisites>
+      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds><!-- TODO: balancing -->
+    </Blueprint>
+  </Blueprints>
+</Definitions>
